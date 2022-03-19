@@ -1,0 +1,6 @@
+ public/js/compiled/**
+ node_modules/
+ .clj-kondo/
+ .shadow-cljs/
+ .cpcache
+ package-lock.json

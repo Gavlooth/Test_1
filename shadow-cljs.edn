@@ -1,0 +1,13 @@
+{:deps  true
+
+ :nrepl  {:port 8450}
+
+ :builds {:app
+          {:target     :browser
+           :modules    {:giantbomb-webapp {:init-fn giantbomb-webapp.core/app}}
+           :cache-blockers #{:giantbomb-webapp giantbomb-webapp.macros}
+           :output-dir "public/js/compiled"
+           :asset-path "/js/compiled"
+           :dev {:closure-defines  {utils/WITH-CORS true}}
+           :devtools {:http-root   "public/"
+                      :http-port   3001}}}}

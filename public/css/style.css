@@ -1,0 +1,55 @@
+
+
+ body{
+ margin: 0;
+ padding: 0;
+ background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+ height: 90vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.central-container {
+        width: 10rem ;
+        margin-top: 5rem;
+        margin-left: calc(50% - 5rem);
+        padding: 1rem;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+
+}
+
+.search-form {margin: 1rem}
+
+.thumbnail-container{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+}
+
+.thumbnail-image {
+         padding:0.5rem;
+         object-fit:contain;
+
+}
+.purchuase-button {
+        margin-left:1rem;
+}
+.listed-game{
+display:flex;
+flex-direction:column;
+justify-content:center;
+margin:1rem;
+}
+
+.Cart-Container{
+ width: 70%;
+ height: 85%;
+ background-color: #ffffff;
+ border-radius: 20px;
+ box-shadow: 0px 25px 40px #1687d933;
+}
